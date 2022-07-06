@@ -1,7 +1,7 @@
 import csv
 import glob
 import json
-import losses
+from gopher import losses
 import numpy as np
 import os
 import pandas as pd
@@ -9,7 +9,7 @@ import pyBigWig
 import sys
 import tensorflow as tf
 import yaml
-from modelzoo import GELU
+from gopher.modelzoo import GELU
 from natsort import natsorted
 import h5py
 from tqdm import tqdm

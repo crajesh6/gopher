@@ -3,7 +3,7 @@ import tensorflow.keras as keras
 import numpy as np
 import os, yaml
 # from loss import *
-import metrics
+from gopher import metrics
 from tensorflow import keras
 
 
